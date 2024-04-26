@@ -7,12 +7,12 @@
 int main() {
     int Nx = 10;
     int Ny = 5;
-    int Nt = 1000;
+    int Nt = 100;
 
-    int alfa = 4;
+    int alfa = 1;
 
-    double dtdx  = 0.05;
-    double dtdy  = 0.05;
+    double dtdx  = 0.20;
+    double dtdy  = 0.20;
 
     //create a vector that holds a 3d matrix of doubles
     std::vector<std::vector<std::vector<double>>> u(Nx, std::vector<std::vector<double>>(Ny, std::vector<double>(Nt, 23.8)));
