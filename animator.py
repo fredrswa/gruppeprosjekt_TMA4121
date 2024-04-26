@@ -21,7 +21,7 @@ with open('heat_equation.txt', 'r') as file:
 def plot(i):
     plt.clf()
     plt.imshow(u[:, :, i], cmap='plasma', interpolation='nearest')
-    plt.title('Temperature at time: %d' % i)
+    plt.title('Temperature at timestep: %d' % i)
     plt.xlabel('x')
     plt.ylabel('y')
     plt.colorbar()
